@@ -4,11 +4,11 @@ window.onload = function () {
     let antraKaina = 15.99;
     let antraGalutineKaina = 16.99
 
-    console.log(pakilimasProcentais(pirmaGalutineKaina,pirmaKaina))
-    console.log(nukritimasProcentais(antraKaina,antraGalutineKaina))
+    console.log(pakitimasProcentais(pirmaKaina, pirmaGalutineKaina))
+    console.log(pakitimasProcentais(antraKaina, antraGalutineKaina))
 }
 
-function pakilimasProcentais (galutineKaina,kaina) {
+function pakitimasProcentais (kaina, galutineKaina) {
     return (galutineKaina - kaina) / kaina * 100 + "%";
 }
 // procentu nukritimo apskaiciavimas
