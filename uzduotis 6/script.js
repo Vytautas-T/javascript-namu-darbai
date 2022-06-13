@@ -10,4 +10,4 @@ window.onload = function () {
 
 function pakilimasProcentais (galutineKaina,kaina) {
     return (galutineKaina - kaina) / kaina * 100 + "%";
-}
+}""
